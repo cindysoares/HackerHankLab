@@ -13,22 +13,28 @@ public class MagicalStringTest {
 		Assert.assertEquals(1, MagicalString.countOccurences(1, 3));
 		Assert.assertEquals(2, MagicalString.countOccurences(2, 3));
 		Assert.assertEquals(3, MagicalString.countOccurences(1, 5));
-		Assert.assertEquals(2, MagicalString.countOccurences(2, 5));	/*
+		Assert.assertEquals(2, MagicalString.countOccurences(2, 5));	
 		Assert.assertEquals(5, MagicalString.countOccurences(1, 12));
-		Assert.assertEquals(7, MagicalString.countOccurences(2, 12));*/
+		Assert.assertEquals(7, MagicalString.countOccurences(2, 12));
 		Assert.assertEquals(7, MagicalString.countOccurences(1, 15));
 		Assert.assertEquals(8, MagicalString.countOccurences(2, 15));
 		Assert.assertEquals(13, MagicalString.countOccurences(1, 25));
 		Assert.assertEquals(12, MagicalString.countOccurences(2, 25));
 		Assert.assertEquals(25, MagicalString.countOccurences(1, 49));
 		Assert.assertEquals(24, MagicalString.countOccurences(2, 49));
+		Assert.assertEquals(53, MagicalString.countOccurences(1, 108));
+		Assert.assertEquals(55, MagicalString.countOccurences(2, 108));
+		Assert.assertEquals(53, MagicalString.countOccurences(1, 107));
+		Assert.assertEquals(54, MagicalString.countOccurences(2, 107));
 	}
 	
 	
 	/*
 	 * 1, 2, 2, 1, 1, 2, 1, 2, 2, 1, 2, 2, 1, 1, 2, 1, 1, 2, 2, 1, 2, 1, 1, 2, 1, 
 	 * 2, 2, 1, 1, 2, 1, 1, 2, 1, 2, 2, 1, 2, 2, 1, 1, 2, 1, 2, 2, 1, 2, 1, 1, 2, 
-	 * 1, 1, 2, 2, 1, 2, 2, 1, 1, 2, 1, 2, 2, 1, 2, 2, 1, 1, 2, 1, 1, 2, 1, 2, 2, 1, 2, 1, 1, 2, 2, 1, 2, 2, 1, 1, 2, 1, 2, 2, 1, 2, 2, 1, 1, 2, 1, 1, 2, 2, 1, 2, 1, 1, 2, 1, 2, 2
+	 * 1, 1, 2, 2, 1, 2, 2, 1, 1, 2, 1, 2, 2, 1, 2, 2, 1, 1, 2, 1, 1, 2, 1, 2, 2, 
+	 * 1, 2, 1, 1, 2, 2, 1, 2, 2, 1, 1, 2, 1, 2, 2, 1, 2, 2, 1, 1, 2, 1, 1, 2, 2, 
+	 * 1, 2, 1, 1, 2, 1, 2, 2
 	 * */
 	@Test
 	public void testMagicalStringProduced() {
