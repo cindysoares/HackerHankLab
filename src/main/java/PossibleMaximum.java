@@ -27,7 +27,7 @@ public class PossibleMaximum {
 		long max = 0;
 		for (long i = start+1; i <= end; i++) {
 			long possibleValue = getValue.done(i, start, end, k);
-			if(max < possibleValue) {
+			if(max < possibleValue && possibleValue < k) {
 				max = possibleValue;
 			}
 			if(max == k-1) {
