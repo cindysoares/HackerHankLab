@@ -11,6 +11,7 @@ public class ProjectEarthTest {
 		Assert.assertEquals(14, ProjectEarth.reactionTime(10, 20));
 		Assert.assertEquals(5, ProjectEarth.reactionTime(11, 5));
 		Assert.assertEquals(5, ProjectEarth.reactionTime(15, 5));
+		Assert.assertEquals(1, ProjectEarth.reactionTime(6, 5));
 	}
 
 }
